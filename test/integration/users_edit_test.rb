@@ -19,7 +19,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
 
     assert_template 'users/edit'
   end
-  
+
   test "successful edit" do
     log_in_as(@user)
     get edit_user_path(@user)
