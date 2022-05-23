@@ -126,6 +126,7 @@ Rails.application.configure do
     :domain         => host,
     :authentication => :plain,
   }
+
   
 
 end
